@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Колесо фортуны 🎡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🎡 Колесо фортуны</h1>
+
+  <div class="app">
+    <div class="wheel-wrap">
+      <canvas id="wheel" width="480" height="480"></canvas>
+      <div class="pointer">▼</div>
+    </div>
+
+    <div class="panel">
+      <h2>Варианты</h2>
+      <div id="sectors" class="sectors"></div>
+
+      <button id="addBtn" class="btn-add">+ Добавить вариант</button>
+      <div class="sum-info">Сумма: <span id="sum">100</span>%</div>
+      <button id="spinBtn" class="btn-spin">Крутить!</button>
+      <p id="result" class="result"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
