@@ -41,7 +41,7 @@ h1{
   -webkit-text-fill-color:transparent;
   text-align:center;margin-bottom:4px;
 }
-h1 .accent{color:var(--gold);-webkit-text-fill-color:var(--gold)}
+h1 .accent{color:var(--red);-webkit-text-fill-color:var(--red)}
 
 .app{
   display:flex;gap:36px;flex-wrap:wrap;justify-content:center;
